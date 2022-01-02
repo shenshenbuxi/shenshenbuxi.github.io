@@ -104,27 +104,182 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World123</title>
+    <title>Hello World</title>
     <url>/2021/12/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>Welcome to my <a href="https://shenshenbuxi.cc/">blog</a>! This is your very first article!</p>
+<h1 id="写作格式"><a href="#写作格式" class="headerlink" title="写作格式"></a>写作格式</h1><h2 id="1-字体介绍"><a href="#1-字体介绍" class="headerlink" title="1.字体介绍"></a>1.字体介绍</h2><p>样例：<br><em>这是斜体</em><br> <em>这也是斜体</em><br><strong>这是粗体</strong><br><em><strong>这是加粗斜体</strong></em><br><del>这是删除线</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*这是斜体* 或</span><br><span class="line">_这也是斜体_ </span><br><span class="line">**这是粗体**</span><br><span class="line">***这是加粗斜体***</span><br><span class="line">~~这是删除线~~</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2.分级标题"></a>2.分级标题</h2><p>样例：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h2><p>样例：<br>行内形式：<a href="https://shenshenbuxi.cc/">我的博客</a><br>参考形式：[我的博客][1]<br>[1]:<a href="https://shenshenbuxi.cc/">https://shenshenbuxi.cc</a><br>自动链接：我的博客地址<a href="https://shenshenbuxi.cc/">https://shenshenbuxi.cc</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">行内形式：[我的博客](https://shenshenbuxi.cc)</span><br><span class="line">参考形式：[我的博客][1]</span><br><span class="line">[1]:https://shenshenbuxi.cc</span><br><span class="line">自动链接：我的博客地址&lt;https://shenshenbuxi.cc&gt;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="4-列表"><a href="#4-列表" class="headerlink" title="4.列表"></a>4.列表</h2><p>无序列表：<br>样例：</p>
+<ul>
+<li>无序列表项1</li>
+</ul>
+<ul>
+<li>无序列表项2</li>
+</ul>
+<ul>
+<li>无序列表项3</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 无序列表项1</span><br><span class="line">+ 无序列表项2</span><br><span class="line">- 无序列表项3</span><br></pre></td></tr></table></figure>
+
+<p>有序列表：<br>样例：<br>1.有序列表项1<br>2.有序列表项2<br>3.有序列表项3</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.有序列表项1</span><br><span class="line">2.有序列表项2</span><br><span class="line">3.有序列表项3</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-插入图片"><a href="#5-插入图片" class="headerlink" title="5.插入图片"></a>5.插入图片</h2><p>在 Hexo 中插入图片，首先需要将图片放在 source/img/ 文件夹下，然后如下方式进行插入：<br>样例：<br><img src="https://cdn.jsdelivr.net/gh/shenshenbuxi/CDN/img/chuyin.jpg"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](https://cdn.jsdelivr.net/gh/shenshenbuxi/CDN/img/chuyin.jpg)</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-表格"><a href="#6-表格" class="headerlink" title="6.表格"></a>6.表格</h2><p>样例：</p>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th align="left">表头2</th>
+<th align="center">表头3</th>
+<th align="right">表头4</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>默认左对齐</td>
+<td align="left">左对齐</td>
+<td align="center">居中对其</td>
+<td align="right">右对齐</td>
+</tr>
+<tr>
+<td>默认左对齐</td>
+<td align="left">左对齐</td>
+<td align="center">居中对其</td>
+<td align="right">右对齐</td>
+</tr>
+<tr>
+<td>默认左对齐</td>
+<td align="left">左对齐</td>
+<td align="center">居中对其</td>
+<td align="right">右对齐</td>
+</tr>
+</tbody></table>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 表头1|表头2|表头3|表头4</span><br><span class="line">|-| :- | :-: | -: |</span><br><span class="line">|默认左对齐|左对齐|居中对其|右对齐|</span><br><span class="line">|默认左对齐|左对齐|居中对其|右对齐|</span><br><span class="line">|默认左对齐|左对齐|居中对其|右对齐|</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h1 id="标签外挂"><a href="#标签外挂" class="headerlink" title="标签外挂"></a>标签外挂</h1><h2 id="1-mermaid"><a href="#1-mermaid" class="headerlink" title="1.mermaid"></a>1.mermaid</h2><p>使用mermaid標籤可以繪製Flowchart（流程圖）、Sequence diagram（時序圖 ）、Class Diagram（類別圖）、State Diagram（狀態圖）、Gantt（甘特圖）和Pie Chart（圓形圖）</p>
+<p>修改 主題配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mermaid:</span><br><span class="line">  enable: true</span><br><span class="line">  # built-in themes: default/forest/dark/neutral</span><br><span class="line">  theme: default</span><br></pre></td></tr></table></figure>
+<p>样例：</p>
+<div class="mermaid">pie
+    title Key elements in Product X
+    &quot;Calcium&quot; : 42.96
+    &quot;Potassium&quot; : 50.05
+    &quot;Magnesium&quot; : 10.01
+    &quot;Iron&quot; :  5</div>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid %&#125;</span><br><span class="line">pie</span><br><span class="line">    title Key elements in Product X</span><br><span class="line">    &quot;Calcium&quot; : 42.96</span><br><span class="line">    &quot;Potassium&quot; : 50.05</span><br><span class="line">    &quot;Magnesium&quot; : 10.01</span><br><span class="line">    &quot;Iron&quot; :  5</span><br><span class="line">&#123;% endmermaid %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-Tabs"><a href="#2-Tabs" class="headerlink" title="2.Tabs"></a>2.Tabs</h2><p>自定義Tab名 + 只有icon + icon和Tab名<br>样例：</p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">第一個Tab</button></li><li class="tab"><button type="button" data-href="#test4-2"><i class="fab fa-apple-pay" style="text-align: center;"></i></button></li><li class="tab"><button type="button" data-href="#test4-3"><i class="fas fa-bomb"></i>炸彈</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p><strong>tab名字為第一個Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p><strong>只有圖標 沒有Tab名字</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs test4 %&#125;</span><br><span class="line">&lt;!-- tab 第一個Tab --&gt;</span><br><span class="line">**tab名字為第一個Tab**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab @fab fa-apple-pay --&gt;</span><br><span class="line">**只有圖標 沒有Tab名字**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab 炸彈@fas fa-bomb --&gt;</span><br><span class="line">**名字+icon**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-Button"><a href="#3-Button" class="headerlink" title="3.Button"></a>3.Button</h2><p>使用方法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 鏈接</span><br><span class="line">[text]        : 按鈕文字</span><br><span class="line">[icon]        : [可選] 圖標</span><br><span class="line">[color]       : [可選] 按鈕背景顔色(默認style時）</span><br><span class="line">                      按鈕字體和邊框顔色(outline時)</span><br><span class="line">                      default/blue/pink/red/purple/orange/green</span><br><span class="line">[style]       : [可選] 按鈕樣式 默認實心</span><br><span class="line">                      outline/留空</span><br><span class="line">[layout]      : [可選] 按鈕佈局 默認為line</span><br><span class="line">                      block/留空</span><br><span class="line">[position]    : [可選] 按鈕位置 前提是設置了layout為block 默認為左邊</span><br><span class="line">                      center/right/留空</span><br><span class="line">[size]        : [可選] 按鈕大小</span><br><span class="line">                      larger/留空</span><br></pre></td></tr></table></figure>
+<p>样例：</p>
+<a class="btn-beautify button--animated block" href="https://shenshenbuxi.cc/" 
+  title="Fanco"><i class="far fa-hand-point-right"></i><span>Fanco</span></a>
+<a class="btn-beautify button--animated pink block center larger" href="https://shenshenbuxi.cc/" 
+  title="Fanco"><i class="far fa-hand-point-right"></i><span>Fanco</span></a>
+<a class="btn-beautify button--animated outline blue block right larger" href="https://shenshenbuxi.cc//" 
+  title="Fanco"><i class="far fa-hand-point-right"></i><span>Fanco</span></a>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn &#x27;https://shenshenbuxi.cc/&#x27;,Fanco,far fa-hand-point-right,block %&#125;</span><br><span class="line">&#123;% btn &#x27;https://shenshenbuxi.cc/&#x27;,Fanco,far fa-hand-point-right,pink block center larger %&#125;</span><br><span class="line">&#123;% btn &#x27;https://shenshenbuxi.cc/&#x27;,Fanco,far fa-hand-point-right,outline blue block right larger %&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="4-原本、自定义标签"><a href="#4-原本、自定义标签" class="headerlink" title="4.原本、自定义标签"></a>4.原本、自定义标签</h2><div class="note default flat"><p>default 标签外挂</p>
+</div>
+
+<div class="note primary flat"><p>primary 标签外挂</p>
+</div>
+
+<div class="note success flat"><p>success 标签外挂</p>
+</div>
+
+<div class="note danger flat"><p>danger 标签外挂</p>
+</div>
+
+<div class="note info flat"><p>info 标签外挂</p>
+</div>
+
+<div class="note warning flat"><p>warning 标签外挂</p>
+</div>
+
+
+
+
+
+
+<p>自定义标签</p>
+<div class="note red flat"><p>red 标签外挂</p>
+</div>
+
+<div class="note quote flat"><p>quote 标签外挂</p>
+</div>
+
+<div class="note radiation flat"><p>radiation 标签外挂</p>
+</div>
+
+<div class="note bug flat"><p>bug 标签外挂</p>
+</div>
+
+<div class="note idea flat"><p>idea 标签外挂</p>
+</div>
+
+<div class="note link flat"><p>link 标签外挂</p>
+</div>
+
+<div class="note paperclip flat"><p>warning 标签外挂</p>
+</div>
+
+<div class="note todo flat"><p>warning 标签外挂</p>
+</div>
+
+<div class="note guide flat"><p>warning 标签外挂</p>
+</div>
+
+<div class="note message flat"><p>warning 标签外挂</p>
+</div>
+
+<div class="note up flat"><p>warning 标签外挂</p>
+</div>
+
+<div class="note undo flat"><p>warning 标签外挂</p>
+</div>
+
+
+
+
+
+
+
+<p>More info: <a href="https://shenshenbuxi.cc/">Fanco</a></p>
 ]]></content>
       <categories>
-        <category>博客</category>
+        <category>你好</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>世界</tag>
       </tags>
   </entry>
 </search>
