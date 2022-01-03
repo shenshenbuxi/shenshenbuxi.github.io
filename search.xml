@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo博客之butterfly主题美化</title>
-    <url>/2022/01/02/Hexo%E5%8D%9A%E5%AE%A2%E4%B9%8Bbutterfly%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <url>/posts/d49f24e1.html</url>
     <content><![CDATA[<h1 id="主题魔改"><a href="#主题魔改" class="headerlink" title="主题魔改"></a>主题魔改</h1><h2 id="1-添加卡通人物（看板娘）"><a href="#1-添加卡通人物（看板娘）" class="headerlink" title="1.添加卡通人物（看板娘）"></a>1.添加卡通人物（看板娘）</h2><p>输入如下命令获取 live2d：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
 
@@ -72,7 +72,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2021/12/30/hello-world/</url>
+    <url>/posts/4a17b156.html</url>
     <content><![CDATA[<p>Welcome to my <a href="https://shenshenbuxi.cc/">blog</a>! This is your very first article!</p>
 <h1 id="写作格式"><a href="#写作格式" class="headerlink" title="写作格式"></a>写作格式</h1><h2 id="1-字体介绍"><a href="#1-字体介绍" class="headerlink" title="1.字体介绍"></a>1.字体介绍</h2><p>样例：<br><em>这是斜体</em><br> <em>这也是斜体</em><br><strong>这是粗体</strong><br><em><strong>这是加粗斜体</strong></em><br><del>这是删除线</del></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*这是斜体* 或</span><br><span class="line">_这也是斜体_ </span><br><span class="line">**这是粗体**</span><br><span class="line">***这是加粗斜体***</span><br><span class="line">~~这是删除线~~</span><br></pre></td></tr></table></figure>
@@ -251,7 +251,7 @@
   </entry>
   <entry>
     <title>Hexo博客之跳过渲染html页面</title>
-    <url>/2022/01/02/Hexo%E5%8D%9A%E5%AE%A2%E4%B9%8Bt%E8%B7%B3%E8%BF%87%E6%B8%B2%E6%9F%93html%E9%A1%B5%E9%9D%A2/</url>
+    <url>/posts/df92bbca.html</url>
     <content><![CDATA[<h1 id="skip-render"><a href="#skip-render" class="headerlink" title="skip_render"></a>skip_render</h1><h2 id="把源码放到站点根目录"><a href="#把源码放到站点根目录" class="headerlink" title="把源码放到站点根目录"></a>把源码放到站点根目录</h2><p><strong>把你的html源码放到新建文件夹-（名称随便）再把新建的那个文件夹放到你博客的source-（站点根目录）里。</strong></p>
 <h2 id="跳过渲染"><a href="#跳过渲染" class="headerlink" title="跳过渲染"></a>跳过渲染</h2><p>在根目录【根目录】的_config.yml，你可以看到 skip_render，大致在 32 行。写入你想要的跳过渲染的路径</p>
 <div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">格式</button></li><li class="tab"><button type="button" data-href="#test4-2">参数</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">   -  &quot;你新建的文件夹名称/*&quot;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 跳过文件夹下所有文件</span><br><span class="line">    skip_render: </span><br><span class="line">         - &quot;文件夹名/*&quot; </span><br><span class="line"># 跳过子文件夹</span><br><span class="line">     skip_render: </span><br><span class="line">          - &quot;文件夹名/子文件夹名/*&quot; </span><br><span class="line"># 跳过文件夹下所有子文件夹和文件 </span><br><span class="line">     skip_render: </span><br><span class="line">          - &quot;文件夹名/**&quot;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
